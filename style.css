@@ -1,0 +1,7 @@
+/* Скрываем Shorts на главной и в ленте */
+ytd-rich-section-renderer, 
+ytd-reel-shelf-renderer, 
+#shorts-container,
+ytd-guide-entry-renderer a[title="Shorts"] {
+    display: none !important;
+}

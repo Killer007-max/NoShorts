@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "NoDistraction YouTube",
+  "version": "1.1",
+  "description": "Полностью отключает YouTube Shorts, чтобы вернуть продуктивность.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
